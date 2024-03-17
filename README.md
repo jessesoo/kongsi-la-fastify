@@ -12,7 +12,7 @@ SQLite was used for this project.
 
 By default, a login is required to access any resources.
 
-Admin: admin@gmail.com (with nonoverridable admin access)\
+Admin: admin@gmail.com (with non-overridable admin access to inventory)\
 Password: 123456
 
 Guest: user@gmail.com\
@@ -29,7 +29,12 @@ Read permission is required to access any inventory endpoints to showcase the dy
 
 By default, there's only one product in the inventory. Use the frontend to populate the database with 1000 items.
 
-## Links
+## Repos
+
+<a href="https://github.com/jessesoo/kongsi-la-fastify" target="_blank">Backend</a>\
+<a href="https://github.com/jessesoo/kongsi-la-vue-3" target="_blank">Frontend</a>
+
+## Live Demo
 
 <a href="https://kongsi-la-fastify-service-201403171724-d6nw6rk64a-as.a.run.app/" target="_blank">Backend</a>\
 <a href="https://kongsi-la-vue-3.pages.dev" target="_blank">Frontend</a>
