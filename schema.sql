@@ -77,7 +77,7 @@ END;
 
 -- Add users
 INSERT INTO users (name, roles, email, password) VALUES 
-    ('Admin', 'system.product.canCreate|system.product.canRead|system.product.canUpdate|system.product.canDelete', 'admin@gmail.com', '$2y$10$UO2s607sqzvKifxZz4mkXeNjQvEgwRWtqTEZi6S1kTbdagTCno3PS'),
+    ('Admin', 'system.admin.all|system.product.canCreate|system.product.canRead|system.product.canUpdate|system.product.canDelete', 'admin@gmail.com', '$2y$10$UO2s607sqzvKifxZz4mkXeNjQvEgwRWtqTEZi6S1kTbdagTCno3PS'),
     ('Guest User', '', 'user@gmail.com', '$2a$10$lvYwmq2A9gg9/bw0pGfczenh7lFv3IuxZzPMTz2rvqudF9Em7QZ0K'),
     ('Test User', '', 'test@gmail.com', '$2a$10$NNx7UQw5hnSo0ECAexl0BeF5HPRslHWlroJj6DaHih.aDIwK01XYi');
 
